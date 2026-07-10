@@ -1,8 +1,8 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-// Monday 13 July 2026, 09:00 South African Standard Time (SAST, UTC+2)
-const target = new Date('2026-07-13T09:00:00+02:00')
+// Monday 13 July 2026, 10:00 South African Standard Time (SAST, UTC+2)
+const target = new Date('2026-07-13T10:00:00+02:00')
 
 const now = ref(new Date())
 let timer
@@ -56,7 +56,7 @@ const parts = computed(() => {
         <span class="label">seconds</span>
       </div>
     </div>
-    <div v-else class="done">Time's up!</div>
+    <div v-else class="done">It's happening!</div>
   </main>
 </template>
 
