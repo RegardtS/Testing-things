@@ -38,22 +38,22 @@ const parts = computed(() => {
     <div v-if="!finished" class="clock">
       <div class="unit">
         <span class="value">{{ parts.days }}</span>
-        <span class="label">days</span>
+        <span class="label">dae</span>
       </div>
       <span class="sep">:</span>
       <div class="unit">
         <span class="value">{{ parts.hours }}</span>
-        <span class="label">hours</span>
+        <span class="label">ure</span>
       </div>
       <span class="sep">:</span>
       <div class="unit">
         <span class="value">{{ parts.minutes }}</span>
-        <span class="label">minutes</span>
+        <span class="label">minute</span>
       </div>
       <span class="sep">:</span>
       <div class="unit">
         <span class="value">{{ parts.seconds }}</span>
-        <span class="label">seconds</span>
+        <span class="label">sekondes</span>
       </div>
     </div>
     <div v-else class="done">It's happening!</div>
